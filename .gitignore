@@ -1,0 +1,20 @@
+# 忽略所有附檔名是 .png 的檔案
+*.png
+
+# 忽略所有model 的檔案
+model/
+
+# 忽略所有dataset 的檔案
+dataset/
+dataset_22video_20221031/
+dataset_balanced/
+dataset_messvaltest/
+dataset_smooth/
+dataset_smooth_22video_20221031/
+dataset_test_everyframes/
+
+# vscode
+.vscode/
+
+# result
+result/
