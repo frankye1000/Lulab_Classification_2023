@@ -7,12 +7,13 @@ model/
 # 忽略所有dataset 的檔案
 dataset/
 dataset_22video_20221031/
+dataset_186video_20230323/
 dataset_balanced/
 dataset_messvaltest/
 dataset_smooth/
 dataset_smooth_22video_20221031/
 dataset_test_everyframes/
-
+dataset_smooth_186video_20230323/
 # vscode
 .vscode/
 

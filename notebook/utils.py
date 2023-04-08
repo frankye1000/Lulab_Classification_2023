@@ -31,7 +31,7 @@ def plt_heatmap(con_ma):
     '''
     sns.set(font_scale=2)
     f,ax=plt.subplots()
-    sns.heatmap(con_ma, annot=True, ax=ax, fmt='d', cmap='YlGnBu', vmax=200, vmin=0) # 畫熱力圖
+    sns.heatmap(con_ma, annot=True, ax=ax, fmt='d', cmap='YlGnBu', vmax=1500, vmin=0) # 畫熱力圖
     ax.set_title('confusion matrix') # 標題
     ax.set_xlabel('predict')         # x軸
     ax.set_ylabel('true')            # y軸
