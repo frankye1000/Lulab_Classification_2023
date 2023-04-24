@@ -35,8 +35,8 @@ def plt_heatmap(con_ma):
     ax.set_title('confusion matrix') # 標題
     ax.set_xlabel('predict')         # x軸
     ax.set_ylabel('true')            # y軸
-    ax.xaxis.set_ticklabels(['Papilla', 'No Papilla'])
-    ax.yaxis.set_ticklabels(['Papilla', 'No Papilla'])
+    ax.xaxis.set_ticklabels(['Included', 'Excluded'])
+    ax.yaxis.set_ticklabels(['Included', 'Excluded'])
     plt.show()
 
 
